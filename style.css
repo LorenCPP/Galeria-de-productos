@@ -4,25 +4,25 @@ body {
     height: 100%;
 }
 body {
-    background-color: #323232;
-    font-family: Arial, Helvetica, sans-serif Neve, Helvetica;
+    background-color: #e9659a;
+    font-family:cursive,sans-serif; 
     font-size: 14px;
-    color: #000;
+    color:#050404;
     margin: 0;
     padding: 0;
 }
 
 .swiper {
     width: 100%;
-    padding: 150px 0 50px 0;
+    padding: 95px 0 50px 0;
 }
 
 .swiper-slide {
     width: 300px;
-    height: 500px;
-    background-color: #323232;
+    height: 550px;
+    background-color:#ece8ea;
     box-shadow: 0 0 20px #00000066;
-    padding: 40px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -30,58 +30,106 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:40px;
-
+   max-height: 50px;
+       
 }
 .icons i{
     font-size: 20px;
     color: #ffb900;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
-
 
 .icons img{
-    width: 120px;
+    width: 130px;
+        
 }
-.product-content {
-    display: flex;
-    justify-content: space-between;
+
+.product-texto {
+    flex-basis: 50%;
+    font-family: cursive;
+    text-align:justify;
+    margin-top: 60px;
+
+}
+.product-texto span {
+
+    font-size: 30px;
+    color:#ffb900
 }
 
 .product-txt {
     flex-basis: 50%;
+    text-align:center;
+    margin-bottom: 5px;
 }
 .product-txt span {
-    font-size: 25px;
+    font-size: 20px;
     color: #ffb900;
     font-weight: bold;
 }
 
+.product-txt-1 p{
+    text-align: justify;
+}
+
+.product-txt-1 span{
+    font-size: 15px; 
+    color:#ffb900;
+
+}
+.product-txt-1 h3{
+    font-size: 15px; 
+    color:#469c84;
+
+}
+
 .product-txt h3{
-    font-size: 20px;
-    color: antiquewhite;
+    font-size: 18px;
+    color:#469c84;
+    text-align:center;
+    font-weight:bolder;
     text-transform: uppercase;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .product-txt p{
     font-size: 14px;
-    color: aliceblue;
+    color:#031310;
+    text-align:justify;
+    margin-top: 5px;
 }
 .product-img{
     flex-basis: 50%;
-    text-align: right;
+   
 }
 
 .product-img img{
-    width: 120px;
-
+    width: 300px;
+    
+       
 }
 
-.btn-1 {
+.bt-1 {
     display: inline-block;
     padding: 13px 55px;
-    border: 1px solid #ffb900;
+    border: 1.5px solid #ffb900;
     border-radius: 25px;
     color: #ffb900;
     text-decoration: none;
-    margin-top: 50px;
+    margin-top: 5px;
+}
+.bt-1:hover{
+    color:#469c84;
+    
+}
+
+.bi{
+    font-size: 30px;
+    color: #469c84;
+    margin-left: 10px;
+}
+.bi:hover{
+    color: #e9659a;
 }

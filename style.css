@@ -133,3 +133,10 @@ body {
 .bi:hover{
     color: #e9659a;
 }
+@media screen and (min-width:576px) {
+    .body{
+
+    font-size: 25px;
+   
+}
+ }
